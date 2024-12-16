@@ -55,7 +55,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Database Configuration
-DATABASE_URL = "mysql+pymysql://compulife_user:compulife0509@146.190.247.209/prd_main"
+DATABASE_URL = "mysql+pymysql://compulife_user:compulife0509@146.190.247.209/prd_policy_scanner"
 engine = create_engine(DATABASE_URL, echo=True)
 
 # Utility Functions
